@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ng Hoag Hiepp</title>
+  <style>
+    body {
+      background-color: #00BFFF;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #FFFFFF;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .zalo-link {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .qr-code {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://i.imgur.com/J779h3z.png" alt="Profile Picture" class="profile-pic">
+    <h1 class="name">Ng Hoag Hiepp</h1>
+    <p class="zalo-link">Liên hệ Zalo</p>
+    <img src="https://i.imgur.com/kH3x56F.png" alt="QR Code" class="qr-code">
+    <p>Mở Zalo bấm nút quét QR 
+      <img src="https://i.imgur.com/oP3B7lF.png" alt="QR Code Icon">
+      để quét kết bạn</p>
+  </div>
+</body>
+</html>
